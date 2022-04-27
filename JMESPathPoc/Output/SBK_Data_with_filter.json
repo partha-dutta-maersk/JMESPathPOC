@@ -1,0 +1,80 @@
+{
+  "CreateUserId": "Vivek Goel",
+  "CreateUserEmail": null,
+  "ShipperBookingNumber": "0000282925",
+  "DataObject": "SHIPPER_BOOKING",
+  "DataObjectAcronym": "SBK",
+  "ExternalBookingIdentifier": "",
+  "UpdateUserId": null,
+  "UpdateTimestamp": null,
+  "OwningOfficePartyCode": null,
+  "ShipperBookingStatus": "STUFFED",
+  "TotalBookedPackageQuantity": 6,
+  "TotalBookedCustomerProductQuantity": 310,
+  "TotalBookedWeight": 1550.0,
+  "TotalBookedVolume": 34.75,
+  "Parties": [
+    {
+      "PartyFunction": "CONSIGNEE",
+      "Party": {
+        "PartyCode": "USHUFFYHQ",
+        "BusinessEntityCountryCode": "US",
+        "BusinessEntityCode": "HUFFY",
+        "BusinessEntityFunction": "HQ"
+      }
+    },
+    {
+      "PartyFunction": "SHIPPER",
+      "Party": {
+        "PartyCode": "CNALLIANASVDR",
+        "BusinessEntityCountryCode": "CN",
+        "BusinessEntityCode": "ALLIANAS",
+        "BusinessEntityFunction": "VDR"
+      }
+    }
+  ],
+  "Locations": [
+    {
+      "LocationFunction": "PLACE_OF_DELIVERY",
+      "Location": {
+        "FacilityCode": "USSPQTRM",
+        "FacilityName": "San Pedro"
+      }
+    },
+    {
+      "LocationFunction": "PLACE_OF_RECEIPT",
+      "Location": {
+        "FacilityCode": "USSPQTRM",
+        "FacilityName": "San Pedro"
+      }
+    },
+    {
+      "LocationFunction": "PORT_OF_LOADING",
+      "Location": {
+        "FacilityCode": "CNSGHTRM",
+        "FacilityName": "Shanghai"
+      }
+    },
+    {
+      "LocationFunction": "PORT_OF_DISCHARGE",
+      "Location": {
+        "FacilityCode": "CNSGHTRM",
+        "FacilityName": "Shanghai"
+      }
+    }
+  ],
+  "ServicePlan": {
+    "Incoterm": "DDP",
+    "TransportMode": "AIR",
+    "FreightTerm": "COLLECT",
+    "ServiceTypeModes": [
+      {
+        "LoadService": "CFS",
+        "DischargeService": "CY"
+      }
+    ]
+  },
+  "CreateSource": "NSCP_ORDER_MANAGEMENT",
+  "ContainerGohFlag": 0,
+  "ContainerDgFlag": 0
+}
